@@ -3,4 +3,8 @@ class PagesController < ApplicationController
 
   def home
   end
+
+  def about
+    @team = ["Elvis", "Gautham", "Michele"]
+  end
 end
