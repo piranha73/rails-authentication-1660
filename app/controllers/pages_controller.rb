@@ -3,4 +3,8 @@ class PagesController < ApplicationController
 
   def home
   end
+
+  def about
+    # TODO: add team here
+  end
 end
