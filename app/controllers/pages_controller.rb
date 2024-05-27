@@ -5,6 +5,6 @@ class PagesController < ApplicationController
   end
 
   def about
-    # TODO: add team here
+    @team = ["Elvis", "Gautham", "Michele"]
   end
 end
